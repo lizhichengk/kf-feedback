@@ -1,0 +1,112 @@
+{
+  "_args": [
+    [
+      "kf-feedback@1.0.2",
+      "/Users/lizhicheng/kefu/swan"
+    ]
+  ],
+  "_development": true,
+  "_from": "kf-feedback@1.0.2",
+  "_id": "kf-feedback@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-TP33ut6Ij3Ge5oxYuLd2M6+91O1M654xctAD5ecIBktS0g+JQ2bJwZaMBV+O016JRgjPJLMmG+cWhJB6D1YZ9g==",
+  "_location": "/kf-feedback",
+  "_phantomChildren": {
+    "@xtuc/ieee754": "1.2.0",
+    "ajv": "6.10.2",
+    "ajv-errors": "1.0.1",
+    "ajv-keywords": "3.4.1",
+    "cacache": "12.0.2",
+    "chrome-trace-event": "1.0.2",
+    "errno": "0.1.7",
+    "eslint-scope": "4.0.3",
+    "find-cache-dir": "2.1.0",
+    "graceful-fs": "4.2.1",
+    "is-glob": "4.0.1",
+    "is-wsl": "1.1.0",
+    "json-parse-better-errors": "1.0.2",
+    "loader-runner": "2.4.0",
+    "loader-utils": "1.2.3",
+    "memory-fs": "0.4.1",
+    "micromatch": "3.1.10",
+    "neo-async": "2.6.1",
+    "node-libs-browser": "2.2.1",
+    "normalize-path": "3.0.0",
+    "picomatch": "2.2.2",
+    "randombytes": "2.1.0",
+    "readable-stream": "2.3.6",
+    "tapable": "1.1.3",
+    "terser": "4.1.3",
+    "watchpack-chokidar2": "2.0.1",
+    "webpack-sources": "1.4.3",
+    "worker-farm": "1.7.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "kf-feedback@1.0.2",
+    "name": "kf-feedback",
+    "escapedName": "kf-feedback",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://192.168.14.11:8888/kf-feedback/-/kf-feedback-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/Users/lizhicheng/kefu/swan",
+  "author": {
+    "name": "lizhicheng"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "axios": "^0.21.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.33.0"
+  },
+  "description": "客服组件-用户反馈",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/runtime": "^7.8.4",
+    "acorn": "^6.1.1",
+    "autoprefixer": "^9.6.0",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.0.6",
+    "chalk": "^2.4.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "element-ui": "^2.15.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "post-loader": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "ts-loader": "^6.0.4",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "url-loader": "^2.3.0",
+    "vue-style-loader": "^4.1.2",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "license": "ISC",
+  "main": "dist/js/app.js",
+  "name": "kf-feedback",
+  "scripts": {
+    "build": "rm -rf dist && cross-env NODE_ENV=production node ./build/build.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --config ./build/webpack.dev.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}
